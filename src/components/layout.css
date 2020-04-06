@@ -1,9 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 :root{
   --mainBlue: #3399ff;
-  --mainBray: #ece8dc;
+  --mainGray: #ece8dc;
   --mainWhite: #fff;
   --mainBlack: #000;
+  --centerAlign: center;
+  --fontFamily: 'Montserrat', sans-serif;
 }
 body{
-  
+  font-family: var(--fontFamily);
 }
+
+
+
+/* navigation bar */
+.navbar-brand img{
+  width: 100px;
+}
+
+
+
+/* home page */
+.outer_home_page{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/bg2.jpg');
+  padding: 200px 0px;
+  /* background-color: var(--mainWhite); */
+  background-position: center;
+  background-size: cover;
+  text-align: var(--centerAlign);
+}
+.outer_home_page .content .profile_pic{
+  background-color: var(--mainBlue);
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.outer_home_page .content .profile_pic img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.outer_home_page .content h1{
+  color: var(--mainWhite);
+}
+.outer_home_page .content p{
+  color: var(--mainWhite);
+}
+
+/* home_component */
+.home_component{
+  padding: 100px 0px;
+  text-align: var(--centerAlign);
+}
+.home_component .content h2{
+  font-size: 16px;
+  font-family: var(--fontFamily);
+}
+
+
+
+
+/* skill_component */
+.skill_component{
+  padding: 100px 0px;
+  background-color: var(--mainBlue);
+}
+.skill_component h1{
+  font-size: 50px;
+  text-align: var(--centerAlign);
+  font-weight: bold;
+  font-family: var(--fontFamily);
+}
+.skill_component .content{
+  background-color: var(--mainWhite);
+  margin: 0px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.skill_component .content p{
+  font-size: 16px;
+  font-family: var(--fontFamily);
+  font-weight: 700;
+}
+.skill_component .content .front_end_language{
+  display: flex;
+  align-items: center;
+  /* margin-right: 10px; */
+}
+.skill_component .content .front_end_language span{
+  background-color: var(--mainWhite);
+  border: 1px solid var(--mainGray);
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+
+
+
+
+
