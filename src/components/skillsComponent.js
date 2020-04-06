@@ -80,6 +80,22 @@ const SkillsComponent = () =>{
                         </div>
                     </div>
                 </div>
+                <br/>
+                <div className="row">
+                    <div className="col-md-8 offset-md-2">
+                        <div className="content">
+                            <p>Data Science</p>
+                            <div className="front_end_language">
+                                <span>Pandas</span>
+                                <span>Numpy</span>
+                                <span>Matplotlib</span>
+                                <span>Stata</span>
+                                <span>ODK</span>
+                                <span>REDCap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

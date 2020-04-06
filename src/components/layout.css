@@ -99,6 +99,25 @@ body{
 }
 
 
+/* footer_component */
+.footer_component{
+  background-color: #eee;
+  color: var(--mainBlack);
+  text-align: var(--centerAlign);
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
