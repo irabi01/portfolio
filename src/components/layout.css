@@ -220,3 +220,19 @@ body{
 }
 
 
+
+
+/* project_page */
+.project_page{
+  background-color: var(--mainBlack);
+  text-align: var(--centerAlign);
+  padding: 100px 0px;
+}
+.project_page .content h1{
+  font-size: 50px;
+  color: var(--mainWhite);
+}
+.project_page .content p{
+  color: var(--mainWhite);
+  font-size: 30px;
+}

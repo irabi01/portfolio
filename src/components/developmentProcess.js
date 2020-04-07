@@ -73,12 +73,6 @@ const DevelopmentProcess = () =>{
                                     </div>
                                 </div>
 
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
