@@ -28,6 +28,7 @@ body{
   /* background-color: var(--mainWhite); */
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   text-align: var(--centerAlign);
 }
 .outer_home_page .content .profile_pic{
@@ -96,6 +97,20 @@ body{
   border-radius: 5px;
   margin-right: 10px;
   font-weight: 400;
+}
+
+
+
+/* home_second_section */
+.home_second_section{
+  padding: 100px 0px;
+  text-align: var(--centerAlign);
+}
+.home_second_section .content h1{
+  font-size: 50px;
+}
+.home_second_section .content p{
+  font-size: 16px;
 }
 
 

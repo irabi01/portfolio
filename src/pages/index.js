@@ -1,12 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import logo from '../images/logo.png'
+// import { Link } from "gatsby"
+// import logo from '../images/logo.png'
 import logo_2 from '../images/logo.jpeg'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeComponent1 from "../components/homeComponent1"
 import SkillsComponent from "../components/skillsComponent"
+import HomeComponent2 from "../components/homeComponent2"
+import GraphComponent from "../components/graphComponent"
 // import { FaReact } from 'react-icons/fa'
 
 const IndexPage = () => (
@@ -27,6 +29,8 @@ const IndexPage = () => (
     </div>
     <HomeComponent1/>
     <SkillsComponent/>
+    <HomeComponent2/>
+    <GraphComponent/>
   </Layout>
 )
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import logo from '../images/logo.png'
-import { FaHome } from 'react-icons/fa'
+// import logo from '../images/logo.png'
 
 
 

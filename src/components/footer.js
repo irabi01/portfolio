@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCopyright } from 'react-icons/fa'
+import { FaRegCopyright } from 'react-icons/fa'
 
 const FooterComponent = () => {
     return (
@@ -8,7 +8,7 @@ const FooterComponent = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="content">
-                            <p>Irabi Profile <FaCopyright/> 2016 - {(new Date().getFullYear())}</p>
+                            <p>Copyrright Irabi Profile <FaRegCopyright/> 2016 - {(new Date().getFullYear())}</p>
                         </div>
                     </div>
                 </div>
