@@ -29,7 +29,7 @@ const GraphComponent = () => {
                             options={{
                                 title:{
                                 display:true,
-                                text:'Programming language vs Projects devloped',
+                                text:'Programming language vs Projects developed',
                                 fontSize:20,
                                 fontFamily:'monospace'
                                 },
